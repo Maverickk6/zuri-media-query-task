@@ -124,8 +124,9 @@ input {
   color: hsl(248, 32%, 49%);
 }
 ::placeholder {
+  font-family: "Poppins", sans-serif;
   color: rgba(96, 85, 165, 0.6);
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 .submit {
@@ -217,12 +218,19 @@ input {
     align-items: center;
   }
 
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: rgba(96, 85, 165, 0.6);
+    opacity: 1;
+  }
+  
+
   .form-container {
     border-radius: 8px;
     height: 90%;
     background-color: white;
     width: 100%;
-    padding: 5px 5px;
+    padding: 10px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
