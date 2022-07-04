@@ -277,6 +277,14 @@ input::after {
     color: rgba(96, 85, 165, 0.6);
     opacity: 1;
   }
+
+  .submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -305,12 +313,12 @@ input::after {
   }
 
   .first-div p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
   .first-div h1 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1;
   }
 
@@ -330,9 +338,9 @@ input::after {
   .upper-p {
     text-align: center;
     width: 100%;
-    font-size: 12px;
+    font-size: 18px;
     color: hsl(246, 39%, 85%);
-    padding: 10px;
+    padding: 15px 10px;
     background-color: hsl(248, 32%, 49%);
     border-radius: 8px;
     margin-bottom: 20px;
@@ -404,5 +412,294 @@ input::after {
     font-family: "Poppins", sans-serif;
     color: rgba(96, 85, 165, 0.6);
     opacity: 1;
+  }
+
+  .submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+  main {
+    font-size: 13px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .first-div {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .first-div p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .first-div h1 {
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  .second-div {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    /* background-color: blue; */
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .upper-p {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: hsl(246, 39%, 85%);
+    padding: 15px 10px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .bold {
+    font-weight: 600;
+    color: hsl(248, 31%, 95%);
+  }
+
+  .lower-p {
+    font-size: 15px;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    padding: 0px 10px;
+    line-height: 1.2;
+  }
+  form {
+    padding: 5px 5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgba(96, 85, 165, 0.6);
+    opacity: 1;
+  }
+
+  .form-container {
+    border-radius: 8px;
+    height: 80%;
+    background-color: white;
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    width: 100%;
+  }
+  
+  input {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid hsl(248, 32%, 49%);
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px;
+    color: hsl(248, 32%, 49%);
+  }
+  input::after {
+    content: "Your validation message";
+    position: absolute;
+    left: 20px;
+    bottom: -8px;
+  }
+  
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: rgba(96, 85, 165, 0.6);
+    opacity: 1;
+  }
+
+  .submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1566px) {
+  main {
+    font-size: 13px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .first-div {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .first-div p {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .first-div h1 {
+    font-size: 55px;
+    line-height: 1;
+  }
+
+  .second-div {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    /* background-color: blue; */
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .upper-p {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: hsl(246, 39%, 85%);
+    padding: 20px 10px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+  }
+
+  .bold {
+    font-weight: 600;
+    color: hsl(248, 31%, 95%);
+  }
+
+  .lower-p {
+    font-size: 18px;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    padding: 0px 10px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  form {
+    padding: 5px 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgba(96, 85, 165, 0.6);
+    opacity: 1;
+  }
+
+  .form-container {
+    border-radius: 8px;
+    height: 75%;
+    background-color: white;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    width: 100%;
+  }
+  
+  input {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(248, 32%, 49%);
+    width: 100%;
+    height: 60px;
+    padding: 0px 10px;
+    color: hsl(248, 32%, 49%);
+  }
+  input::after {
+    content: "Your validation message";
+    position: absolute;
+    left: 20px;
+    bottom: -8px;
+  }
+  
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: rgba(96, 85, 165, 0.6);
+    font-size: 18px;
+    opacity: 1;
+  }
+
+  .submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 20px;
   }
 }
